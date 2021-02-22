@@ -487,15 +487,18 @@ figure {
   text-decoration: none;
   transition: background-color 0.2s ease-out,
               border-color 0.2s ease-out;
+            
+              
 }
 .ghost-button-semi-transparent:hover,
 .ghost-button-semi-transparent:active {
  
   background-color: rgba(255, 255, 255, 0.4);
   border-color: #fff; /* fallback */
-  border-color: #4fc5fcde;
+  border-color: #00b2e2;
   transition: background-color 0.3s ease-in,
               border-color 0.3s ease-in;
+  color: #00b2e2;
 }
 .footer_link{
   color:#CCC;
